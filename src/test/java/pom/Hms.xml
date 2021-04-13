@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Hms Pom Batch">
+<test name="Hms test Batch">
+
+<classes>
+<class name="pom.HmsPermRegScript"></class>
+<class name="pom.HmsEmergencyRegScript"></class>
+<class name="pom.HmsAdmissionScript"></class>
+<class name="pom.HmsAdmissionAdviseScript"></class>
+<class name="pom.HmsSearchRegScript"></class>
+
+</classes>
+
+</test>
+</suite>

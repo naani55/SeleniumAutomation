@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="SpiceJet_TC.VerifyBooking10Tickets"/>
+      <class name="SpiceJet_TC.VerifyingAdultChildInfantFields"/>
+      <class name="SpiceJet_TC.VerifyingDropdowns"/>
+      <class name="SpiceJet_TC.VerifyingFields"/>
+      <class name="SpiceJet_TC.VerifyingMoreThan9Adults"/>
+      <class name="SpiceJet_TC.VerifyingOneWay"/>
+      <class name="SpiceJet_TC.VerifyingToField"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

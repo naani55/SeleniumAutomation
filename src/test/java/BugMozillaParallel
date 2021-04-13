@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+
+  <test name="ChromeTest">
+  
+    <classes>
+      <parameter name="Browser" value="chrome"></parameter>
+      <class name="infoCommands.BugMozillaParallel"/>
+    </classes>
+    </test> 
+    
+    <test name="FirefoxTest">
+    <classes>
+      <parameter name="Browser" value="firefox"></parameter>
+      <class name="infoCommands.BugMozillaParallel"/>
+    </classes>
+    </test> 
+
+    
+    
+ 
+</suite> <!-- Suite -->

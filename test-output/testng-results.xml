@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-24T07:46:12Z" name="Default suite" finished-at="2021-02-24T07:46:53Z" duration-ms="41512">
+    <groups>
+    </groups>
+    <test started-at="2021-02-24T07:46:12Z" name="Default test" finished-at="2021-02-24T07:46:53Z" duration-ms="41512">
+      <class name="infoCommands.AmazonParallel">
+        <test-method signature="flipkart(java.lang.String)[pri:0, instance:infoCommands.AmazonParallel@4758820d]" started-at="2021-02-24T07:46:12Z" name="flipkart" data-provider="SearchProvider" finished-at="2021-02-24T07:46:25Z" duration-ms="13663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fridge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+        <test-method signature="flipkart(java.lang.String)[pri:0, instance:infoCommands.AmazonParallel@4758820d]" started-at="2021-02-24T07:46:26Z" name="flipkart" data-provider="SearchProvider" finished-at="2021-02-24T07:46:38Z" duration-ms="12893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+        <test-method signature="flipkart(java.lang.String)[pri:0, instance:infoCommands.AmazonParallel@4758820d]" started-at="2021-02-24T07:46:38Z" name="flipkart" data-provider="SearchProvider" finished-at="2021-02-24T07:46:53Z" duration-ms="14895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+      </class> <!-- infoCommands.AmazonParallel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

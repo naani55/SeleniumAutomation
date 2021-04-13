@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" parallel="tests">
+
+	<test name="Test1">
+
+		<classes>
+			<parameter name="searchkey" value="fridge"></parameter>
+			<class name="infoCommands.AmazonParallel" />
+		</classes>
+	</test>
+	
+	<test name="Test2">
+
+		<classes>
+			<parameter name="searchkey" value="iphone"></parameter>
+			<class name="infoCommands.AmazonParallel" />
+		</classes>
+	</test>
+	
+	<test name="Test3">
+
+		<classes>
+			<parameter name="searchkey" value="washing machine"></parameter>
+			<class name="infoCommands.AmazonParallel" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

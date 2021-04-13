@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Screenshot">
+<test name="Screenshot Results">
+<classes>
+
+<class name="TestNGautomation.TestngScreenshot"></class>
+<class name="TestNGautomation.TestingScreenshot2"></class>
+
+</classes>
+
+</test>
+</suite>
